@@ -1,0 +1,401 @@
+{
+  "generated_at": "2026-09-22T01:04:49.319429+00:00",
+  "race": {
+    "name": "IRONMAN 70.3 Puerto Rico",
+    "date": "2027-03-01",
+    "location": "San Juan, Puerto Rico",
+    "conditions": "Tropical \u2014 expected 28-33C, 70-90% humidity"
+  },
+  "athlete_profile": {
+    "weight_kg": 74.7,
+    "body_fat_pct": 13.1,
+    "lean_mass_kg": 64.9,
+    "current_daily_nutrition": {
+      "energy_kcal": 3471,
+      "carbs_g": 464,
+      "carbs_g_per_kg": 6.2,
+      "protein_g": 163,
+      "protein_g_per_kg": 2.2,
+      "fat_g": 94,
+      "sodium_mg": 3681,
+      "water_ml": 3629
+    },
+    "training_day_carbs_g": 625,
+    "rest_day_carbs_g": 400,
+    "preferred_workout_foods": [
+      "Banana",
+      "Energy gel",
+      "Salted rice cakes (homemade)",
+      "Sports drink (carb-electrolyte mix)"
+    ]
+  },
+  "race_week_carb_loading": {
+    "protocol": "3-day carb loading with fiber taper",
+    "rationale": "Current daily carbs: 464g (6.2 g/kg). Loading target: 747g/day (10 g/kg) for final 2 days to maximize muscle glycogen.",
+    "days": [
+      {
+        "label": "Race Day -3",
+        "focus": "Normal training diet, start reducing fiber",
+        "carbs_g": 464,
+        "carbs_g_per_kg": 6.2,
+        "protein_g": 163,
+        "fat_g": 94,
+        "fiber_note": "Start reducing raw vegetables, legumes, high-fiber cereals.",
+        "hydration_ml": 3500,
+        "sodium_note": "Maintain normal sodium intake (~3000-3500 mg)."
+      },
+      {
+        "label": "Race Day -2",
+        "focus": "Begin loading \u2014 increase carbs, reduce fiber and fat",
+        "carbs_g": 598,
+        "carbs_g_per_kg": 8,
+        "protein_g": 120,
+        "fat_g": 66,
+        "fiber_note": "Low fiber only (<20g). White rice, white bread, pasta, potatoes.",
+        "hydration_ml": 4000,
+        "sodium_note": "Increase sodium to 4000-5000 mg to aid glycogen storage and fluid retention.",
+        "meal_ideas": [
+          "Breakfast: White bread with honey + banana + coffee",
+          "Snack: Rice cakes with jam",
+          "Lunch: White rice + grilled chicken + low-fiber vegetables",
+          "Snack: Sports drink + pretzels",
+          "Dinner: Pasta with tomato sauce + lean protein",
+          "Evening: Fruit juice + white bread with peanut butter"
+        ]
+      },
+      {
+        "label": "Race Day -1",
+        "focus": "Peak loading \u2014 maximum carbs, minimal fiber and fat",
+        "carbs_g": 747,
+        "carbs_g_per_kg": 10,
+        "protein_g": 105,
+        "fat_g": 56,
+        "fiber_note": "Very low fiber (<15g). Avoid salads, raw vegetables, beans entirely.",
+        "hydration_ml": 4000,
+        "sodium_note": "Keep sodium at 4000-5000 mg. Add salt to meals. Drink electrolyte mix between meals.",
+        "meal_ideas": [
+          "Breakfast: Large bowl of white rice with honey + juice",
+          "Snack: 2 bananas + sports drink",
+          "Lunch: Pasta with simple sauce + white bread",
+          "Snack: Rice cakes + honey + electrolyte drink",
+          "Dinner (early, by 18:00): Smaller pasta portion + baked potato + juice",
+          "Evening: Low-fiber cereal with milk (settle stomach for morning)"
+        ],
+        "important": "Eat dinner early. Nothing new. Favor foods you've eaten before race days."
+      }
+    ]
+  },
+  "race_morning_pre_race_meal": {
+    "timing": "2.5-3 hours before swim start",
+    "carb_target_g": 149,
+    "carb_target_g_per_kg": 2.0,
+    "kcal_target": 715,
+    "principles": [
+      "Low fat, low fiber \u2014 easy to digest.",
+      "Familiar foods only \u2014 nothing new on race morning.",
+      "Sip 500-750 ml water with electrolytes alongside the meal."
+    ],
+    "recommended_meal": {
+      "description": "Based on your tracked breakfast/pre-workout foods",
+      "option_a": {
+        "name": "Oatmeal + banana (your training breakfast)",
+        "items": [
+          {
+            "food": "Oatmeal, cooked",
+            "amount": "200g",
+            "carbs_g": 37
+          },
+          {
+            "food": "Banana",
+            "amount": "2 medium",
+            "carbs_g": 54
+          },
+          {
+            "food": "Honey",
+            "amount": "30g",
+            "carbs_g": 25
+          },
+          {
+            "food": "Whey protein isolate",
+            "amount": "20g",
+            "carbs_g": 1,
+            "protein_g": 17
+          },
+          {
+            "food": "Coffee, black",
+            "amount": "300ml",
+            "carbs_g": 0
+          }
+        ],
+        "total_carbs_g": 117,
+        "note": "Closest to your brick-day breakfast. Oatmeal has moderate fiber \u2014 eat earlier (3 hrs) if GI-sensitive."
+      },
+      "option_b": {
+        "name": "White bread + PB (your long-ride breakfast)",
+        "items": [
+          {
+            "food": "White bread",
+            "amount": "120g",
+            "carbs_g": 60
+          },
+          {
+            "food": "Peanut butter",
+            "amount": "20g",
+            "carbs_g": 4,
+            "fat_g": 10
+          },
+          {
+            "food": "Banana",
+            "amount": "2 medium",
+            "carbs_g": 54
+          },
+          {
+            "food": "Honey",
+            "amount": "20g",
+            "carbs_g": 17
+          },
+          {
+            "food": "Coffee, black",
+            "amount": "300ml",
+            "carbs_g": 0
+          }
+        ],
+        "total_carbs_g": 135,
+        "note": "Lower fiber than oatmeal. Good if eating 2.5 hrs before start."
+      }
+    },
+    "top_up": {
+      "timing": "15-20 min before swim start",
+      "items": "1 gel (25g carbs) + 200ml water or sports drink",
+      "note": "Quick-absorbing carbs to top off blood glucose. Already in your routine."
+    }
+  },
+  "race_day_nutrition_timeline": {
+    "swim": {
+      "duration_display": "0:45:34",
+      "nutrition": "None during swim. Focus on pacing and sighting."
+    },
+    "t1": {
+      "duration_estimate": "~3 min",
+      "nutrition": "Sip electrolyte drink while transitioning. No solid food."
+    },
+    "bike": {
+      "duration_display": "2:51:45",
+      "target_carb_rate_g_per_hr": 85,
+      "target_sodium_rate_mg_per_hr": 900,
+      "target_fluid_rate_ml_per_hr": 875,
+      "total_carbs_target_g": 243,
+      "total_sodium_target_mg": 2576,
+      "total_fluid_target_ml": 2505,
+      "fueling_schedule": [
+        {
+          "elapsed": "0:20",
+          "action": "Drink 300-350ml sports drink",
+          "carbs_g": 22,
+          "sodium_mg": 200,
+          "fluid_ml": 325,
+          "cumulative_carbs_g": 22
+        },
+        {
+          "elapsed": "0:40",
+          "action": "Take 1 gel + 150ml water",
+          "carbs_g": 25,
+          "sodium_mg": 100,
+          "fluid_ml": 150,
+          "cumulative_carbs_g": 47
+        },
+        {
+          "elapsed": "1:00",
+          "action": "Drink 300-350ml sports drink + 1 rice cake",
+          "carbs_g": 41,
+          "sodium_mg": 400,
+          "fluid_ml": 325,
+          "cumulative_carbs_g": 88
+        },
+        {
+          "elapsed": "1:20",
+          "action": "Take 1 gel + 150ml water",
+          "carbs_g": 25,
+          "sodium_mg": 100,
+          "fluid_ml": 150,
+          "cumulative_carbs_g": 113
+        },
+        {
+          "elapsed": "1:40",
+          "action": "Drink 300-350ml sports drink",
+          "carbs_g": 22,
+          "sodium_mg": 200,
+          "fluid_ml": 325,
+          "cumulative_carbs_g": 135
+        },
+        {
+          "elapsed": "2:00",
+          "action": "Take 1 gel + 150ml water + 1 rice cake",
+          "carbs_g": 44,
+          "sodium_mg": 300,
+          "fluid_ml": 150,
+          "cumulative_carbs_g": 179
+        },
+        {
+          "elapsed": "2:20",
+          "action": "Drink 300-350ml sports drink",
+          "carbs_g": 22,
+          "sodium_mg": 200,
+          "fluid_ml": 325,
+          "cumulative_carbs_g": 201
+        },
+        {
+          "elapsed": "2:40",
+          "action": "Take 1 gel + 150ml water",
+          "carbs_g": 25,
+          "sodium_mg": 100,
+          "fluid_ml": 150,
+          "cumulative_carbs_g": 226
+        }
+      ],
+      "what_to_carry": [
+        "2-3 bottles (500-750ml each) of sports drink mix",
+        "4-5 gels (mix of caffeinated and plain)",
+        "2-3 rice cakes (your proven training food)",
+        "Top tube or bento box for gels"
+      ]
+    },
+    "t2": {
+      "duration_estimate": "~3 min",
+      "nutrition": "1 gel + water before leaving transition."
+    },
+    "run": {
+      "duration_display": "1:49:03",
+      "target_carb_rate_g_per_hr": 65,
+      "target_sodium_rate_mg_per_hr": 700,
+      "target_fluid_rate_ml_per_hr": 625,
+      "total_carbs_target_g": 118,
+      "total_sodium_target_mg": 1272,
+      "total_fluid_target_ml": 1136,
+      "fueling_schedule": [
+        {
+          "elapsed": "0:12",
+          "approx_km": 2.3,
+          "action": "Gel + water",
+          "carbs_g": 25,
+          "sodium_mg": 100,
+          "fluid_ml": 200,
+          "cumulative_carbs_g": 25
+        },
+        {
+          "elapsed": "0:24",
+          "approx_km": 4.6,
+          "action": "Electrolyte drink (cup)",
+          "carbs_g": 15,
+          "sodium_mg": 150,
+          "fluid_ml": 250,
+          "cumulative_carbs_g": 40
+        },
+        {
+          "elapsed": "0:36",
+          "approx_km": 7.0,
+          "action": "Water + cola (if available)",
+          "carbs_g": 12,
+          "sodium_mg": 50,
+          "fluid_ml": 250,
+          "cumulative_carbs_g": 52
+        },
+        {
+          "elapsed": "0:48",
+          "approx_km": 9.3,
+          "action": "Gel + water",
+          "carbs_g": 25,
+          "sodium_mg": 100,
+          "fluid_ml": 200,
+          "cumulative_carbs_g": 77
+        },
+        {
+          "elapsed": "1:00",
+          "approx_km": 11.6,
+          "action": "Electrolyte drink (cup)",
+          "carbs_g": 15,
+          "sodium_mg": 150,
+          "fluid_ml": 250,
+          "cumulative_carbs_g": 92
+        },
+        {
+          "elapsed": "1:12",
+          "approx_km": 13.9,
+          "action": "Water + cola (if available)",
+          "carbs_g": 12,
+          "sodium_mg": 50,
+          "fluid_ml": 250,
+          "cumulative_carbs_g": 104
+        },
+        {
+          "elapsed": "1:24",
+          "approx_km": 16.3,
+          "action": "Gel + water",
+          "carbs_g": 25,
+          "sodium_mg": 100,
+          "fluid_ml": 200,
+          "cumulative_carbs_g": 129
+        },
+        {
+          "elapsed": "1:36",
+          "approx_km": 18.6,
+          "action": "Electrolyte drink (cup)",
+          "carbs_g": 15,
+          "sodium_mg": 150,
+          "fluid_ml": 250,
+          "cumulative_carbs_g": 144
+        },
+        {
+          "elapsed": "1:48",
+          "approx_km": 20.9,
+          "action": "Water + cola (if available)",
+          "carbs_g": 12,
+          "sodium_mg": 50,
+          "fluid_ml": 250,
+          "cumulative_carbs_g": 156
+        }
+      ],
+      "what_to_carry": [
+        "3 gels in race belt (1 caffeinated for km 15+)",
+        "Rely on aid station drinks for fluid",
+        "Salt capsules (2-3) as backup if cramping"
+      ]
+    },
+    "fueling_gap_analysis": {
+      "current_workout_rate_g_per_hr": 56,
+      "bike_target_rate_g_per_hr": 85,
+      "gap_g_per_hr": 29,
+      "recommendation": "Your current training fueling rate is ~56 g/hr. Race target is 85 g/hr on the bike \u2014 that is a significant increase of 29 g/hr. Practice higher intake in long rides over the next weeks to train your gut."
+    }
+  },
+  "sweat_rate_estimate": {
+    "estimated_from": "Cronometer biometric weight changes around long sessions",
+    "observations": [
+      {
+        "date": "2026-09-20",
+        "weight_loss_kg": 0.6000000000000085,
+        "note": "Lower post-long-ride weigh-in reflects fluid loss, not fat loss \u2014 relevant if this feeds a sweat-rate estimate."
+      }
+    ],
+    "estimated_sweat_rate_L_per_hr": "~1.0-1.5 L/hr (estimated from weight delta, but confounded by food/fluid intake during session)",
+    "recommendation": "Perform a controlled sweat test: weigh pre/post a 1-hour run in similar heat, track fluid intake. This gives a precise per-hour rate.",
+    "caveat": "Weight change post-workout reflects fluid loss minus fluid intake during workout. Not a clean sweat rate without controlling for intake."
+  },
+  "race_totals_summary": {
+    "projected_duration": "5:34:51",
+    "total_carbs_g": 535,
+    "total_sodium_mg": 3848,
+    "total_fluid_ml": 3641,
+    "caloric_intake_estimate_kcal": 1444
+  },
+  "key_reminders": [
+    "Nothing new on race day \u2014 only foods and products tested in training.",
+    "Front-load bike nutrition: take your first gel/drink within 10 min of starting the bike.",
+    "Set 20-min alerts on your bike computer as fueling reminders.",
+    "If GI distress on the run: switch to small sips of cola + water only.",
+    "Tropical heat increases fluid and sodium needs \u2014 err on the higher end of ranges.",
+    "Weigh yourself before and after key training sessions to calibrate your personal sweat rate.",
+    "Caffeine: first caffeinated gel no earlier than the second half of the bike.",
+    "These are sports-nutrition heuristics based on your tracked data, not medical advice."
+  ]
+}

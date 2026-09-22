@@ -1,0 +1,454 @@
+{
+  "generated_at": "2026-09-22T00:53:20.180800+00:00",
+  "athlete": {
+    "weight_kg": 70,
+    "age_group": "M30-34"
+  },
+  "objective_race": {
+    "name": "IRONMAN 70.3 Puerto Rico",
+    "date": "2027-03-01",
+    "location": "San Juan, Puerto Rico",
+    "distances": {
+      "swim_km": 1.9,
+      "bike_km": 90,
+      "run_km": 21.1
+    },
+    "course_notes": {
+      "swim": "Protected waters; spectator viewpoints at San Beach, Dos Hermanos Bridge, Paseo Caribe & San Geronimo grounds",
+      "bike": "Northern part of the island toward Dorado, including hill sections",
+      "run": "Winds through the northern part of the islet with ocean and Spanish-architecture views; finishes at Parque del Tercer Milenio"
+    }
+  },
+  "historical_analysis": {
+    "races_used": 4,
+    "races_excluded": [
+      {
+        "name": "IRONMAN Portugal-Cascais",
+        "reason": "Full IRONMAN distance, not comparable to 70.3"
+      }
+    ],
+    "race_paces": [
+      {
+        "race_name": "IRONMAN 70.3 Cartagena",
+        "race_date": "2023-12-03",
+        "overall_seconds": 22153,
+        "overall_display": "6:09:13",
+        "swim_seconds": 3253,
+        "swim_pace_min_100m": 2.85,
+        "swim_pace_display": "2:51 /100m",
+        "bike_seconds": 10437,
+        "bike_speed_kph": 31.0,
+        "run_seconds": 7663,
+        "run_pace_min_km": 6.05,
+        "run_pace_display": "6:03 /km",
+        "transition_seconds": 800,
+        "transition_display": "0:13:20",
+        "div_rank": 157,
+        "points": 1364.0
+      },
+      {
+        "race_name": "IRONMAN 70.3 Fortaleza",
+        "race_date": "2024-08-25",
+        "overall_seconds": 20273,
+        "overall_display": "5:37:53",
+        "swim_seconds": 2871,
+        "swim_pace_min_100m": 2.52,
+        "swim_pace_display": "2:31 /100m",
+        "bike_seconds": 10474,
+        "bike_speed_kph": 30.9,
+        "run_seconds": 6535,
+        "run_pace_min_km": 5.16,
+        "run_pace_display": "5:10 /km",
+        "transition_seconds": 393,
+        "transition_display": "0:06:33",
+        "div_rank": 42,
+        "points": 1874.0
+      },
+      {
+        "race_name": "IRONMAN 70.3 Panama",
+        "race_date": "2026-03-22",
+        "overall_seconds": 16711,
+        "overall_display": "4:38:31",
+        "swim_seconds": 1438,
+        "swim_pace_min_100m": 1.26,
+        "swim_pace_display": "1:16 /100m",
+        "bike_seconds": 8897,
+        "bike_speed_kph": 36.4,
+        "run_seconds": 5859,
+        "run_pace_min_km": 4.63,
+        "run_pace_display": "4:38 /km",
+        "transition_seconds": 517,
+        "transition_display": "0:08:37",
+        "div_rank": 21,
+        "points": 2853.0
+      },
+      {
+        "race_name": "IRONMAN 70.3 Barranquilla",
+        "race_date": "2026-06-07",
+        "overall_seconds": 18483,
+        "overall_display": "5:08:03",
+        "swim_seconds": 2340,
+        "swim_pace_min_100m": 2.05,
+        "swim_pace_display": "2:03 /100m",
+        "bike_seconds": 9147,
+        "bike_speed_kph": 35.4,
+        "run_seconds": 6669,
+        "run_pace_min_km": 5.27,
+        "run_pace_display": "5:16 /km",
+        "transition_seconds": 327,
+        "transition_display": "0:05:27",
+        "div_rank": 13,
+        "points": 2434.0
+      }
+    ],
+    "progression": {
+      "swim": {
+        "trend": "improving",
+        "slope_per_race": -0.366,
+        "r_squared": 0.47,
+        "note": "High variance (CV=32%). Range: 1.26-2.85 min/100m. Panama swim pace is a significant outlier \u2014 may reflect favorable current or short course. Excluding it gives a more reliable estimate."
+      },
+      "bike": {
+        "trend": "improving",
+        "slope_per_race": 1.87,
+        "r_squared": 0.7,
+        "note": "Range: 30.90-36.40 km/h."
+      },
+      "run": {
+        "trend": "improving",
+        "slope_per_race": -0.287,
+        "r_squared": 0.4,
+        "note": "Range: 4.63-6.05 min/km."
+      }
+    }
+  },
+  "finish_time_projection": {
+    "scenarios": {
+      "optimistic": {
+        "total_seconds": 17503,
+        "total_display": "4:51:43",
+        "swim_seconds": 1436,
+        "swim_display": "0:23:56",
+        "swim_pace": "1:16 /100m",
+        "bike_seconds": 9696,
+        "bike_display": "2:41:36",
+        "bike_speed_kph": 33.4,
+        "run_seconds": 5862,
+        "run_display": "1:37:42",
+        "run_pace": "4:38 /km",
+        "transition_seconds": 509,
+        "note": "Best recent paces with hill-adjusted bike. Assumes good conditions and strong race execution."
+      },
+      "expected": {
+        "total_seconds": 20091,
+        "total_display": "5:34:51",
+        "swim_seconds": 2734,
+        "swim_display": "0:45:34",
+        "swim_pace": "2:24 /100m",
+        "bike_seconds": 10305,
+        "bike_display": "2:51:45",
+        "bike_speed_kph": 31.4,
+        "run_seconds": 6543,
+        "run_display": "1:49:03",
+        "run_pace": "5:10 /km",
+        "transition_seconds": 509,
+        "note": "Weighted average of 70.3 paces (recent races 2x weight), swim outlier excluded, bike adjusted for Puerto Rico hills."
+      },
+      "conservative": {
+        "total_seconds": 20459,
+        "total_display": "5:40:59",
+        "swim_seconds": 2873,
+        "swim_display": "0:47:53",
+        "swim_pace": "2:31 /100m",
+        "bike_seconds": 9970,
+        "bike_display": "2:46:10",
+        "bike_speed_kph": 32.5,
+        "run_seconds": 7005,
+        "run_display": "1:56:45",
+        "run_pace": "5:32 /km",
+        "transition_seconds": 611,
+        "note": "Worst recent paces with 5% heat penalty on run for tropical conditions."
+      }
+    },
+    "adjustments": {
+      "bike_elevation": {
+        "description": "Puerto Rico course includes hill sections. Training data shows speed reduction on hilly rides. Applied moderate hill factor to bike pace.",
+        "training_hilly_speed_kph": 25.6,
+        "training_flat_speed_kph": 30.6,
+        "hill_penalty_factor": 0.918
+      },
+      "heat": {
+        "description": "Puerto Rico tropical conditions (28-33C, high humidity). Applied 5% penalty to conservative run estimate.",
+        "penalty_percent": 5
+      },
+      "swim_outlier": {
+        "description": "Panama swim (1:16/100m) excluded from expected/conservative scenarios as it is a significant outlier vs other races (2:00+/100m). May reflect favorable current or course measurement."
+      }
+    },
+    "confidence": {
+      "level": "low-moderate",
+      "notes": [
+        "Based on only 4 half-distance races. Small sample limits reliability.",
+        "Swim pace has extremely high variance. Panama swim is a clear outlier.",
+        "Bike and run show improvement trends but with some regression in most recent race.",
+        "Puerto Rico bike elevation is described as having 'hill sections' but exact profile is unknown.",
+        "Tropical heat/humidity impact varies greatly by individual heat acclimatization."
+      ]
+    }
+  },
+  "nutrition_plan": {
+    "based_on": {
+      "projected_duration_display": "5:34:51",
+      "projected_duration_seconds": 20091,
+      "athlete_weight_kg": 70,
+      "conditions": "Tropical (Puerto Rico, expected 28-33C, 70-90% humidity)"
+    },
+    "by_leg": {
+      "swim": {
+        "duration_display": "0:45:34",
+        "intake": "None (open water swim)",
+        "pre_race": "2-3 hours before start: 100-150g carbs (low fiber), 500ml fluid with electrolytes. Small top-up (gel + water) 15 min before start."
+      },
+      "t1": {
+        "intake": "Quick sip of water or electrolyte drink. Keep transition fast."
+      },
+      "bike": {
+        "duration_display": "2:51:45",
+        "duration_hours": 2.86,
+        "carbs_g": {
+          "min": 229,
+          "max": 258,
+          "target": 243,
+          "rate_min": 80,
+          "rate_max": 90,
+          "rate_target": 85.0
+        },
+        "sodium_mg": {
+          "min": 2290,
+          "max": 2862,
+          "target": 2576,
+          "rate_min": 800,
+          "rate_max": 1000,
+          "rate_target": 900.0
+        },
+        "fluid_ml": {
+          "min": 2147,
+          "max": 2862,
+          "target": 2505,
+          "rate_min": 750,
+          "rate_max": 1000,
+          "rate_target": 875.0
+        },
+        "practical_notes": [
+          "Primary fueling window. Front-load calories in first 90 min.",
+          "Example: 1 bottle (500ml) sports drink/hr + 1 gel (25g carbs) every 30 min.",
+          "Set bike computer alerts every 15-20 min as intake reminders.",
+          "Finish the bike well-fueled \u2014 underfueling here destroys the run."
+        ]
+      },
+      "t2": {
+        "intake": "1 gel (25g carbs) + 200ml water to bridge into run nutrition."
+      },
+      "run": {
+        "duration_display": "1:49:03",
+        "duration_hours": 1.82,
+        "carbs_g": {
+          "min": 109,
+          "max": 127,
+          "target": 118,
+          "rate_min": 60,
+          "rate_max": 70,
+          "rate_target": 65.0
+        },
+        "sodium_mg": {
+          "min": 1090,
+          "max": 1454,
+          "target": 1272,
+          "rate_min": 600,
+          "rate_max": 800,
+          "rate_target": 700.0
+        },
+        "fluid_ml": {
+          "min": 909,
+          "max": 1363,
+          "target": 1136,
+          "rate_min": 500,
+          "rate_max": 750,
+          "rate_target": 625.0
+        },
+        "practical_notes": [
+          "Use aid stations (~every 1.5-2km). Alternate water and electrolyte drink.",
+          "Carry 2-3 gels. Take at start, ~8km, and ~15km.",
+          "If stomach distress: switch to liquid calories only (cola, sports drink).",
+          "Ice sponge and cold water on head/neck at aid stations for cooling."
+        ]
+      }
+    },
+    "race_totals": {
+      "total_carbs_g": {
+        "min": 338,
+        "max": 385,
+        "target": 361
+      },
+      "total_sodium_mg": {
+        "min": 3380,
+        "max": 4316,
+        "target": 3848
+      },
+      "total_fluid_ml": {
+        "min": 3056,
+        "max": 4225,
+        "target": 3641
+      }
+    },
+    "assumptions_and_caveats": [
+      "Sweat rate assumed 1.0-1.5 L/hr for tropical conditions. Individual sweat testing recommended.",
+      "Sodium loss assumed 800-1000 mg/L sweat. Actual range is 200-2000 mg/L between individuals.",
+      "Carb targets of 80-90 g/hr on bike assume trained gut tolerance. Test in training first.",
+      "Lower carb rate on run (60-70 g/hr) accounts for higher GI stress during running.",
+      "These are general sports-nutrition heuristics, not medical advice.",
+      "Puerto Rico heat may require upward fluid adjustment. Monitor urine color and body weight loss in training.",
+      "Caffeine (100-200mg via gels) can help in the second half \u2014 test tolerance first."
+    ]
+  },
+  "training_analysis": {
+    "period": {
+      "total_weeks": 28,
+      "recent_weeks": 8
+    },
+    "by_discipline": {
+      "ride": {
+        "total_sessions": 70,
+        "total_km": 4417.1,
+        "total_hours": 162.6,
+        "weekly_avg_km": 157.8,
+        "weekly_avg_sessions": 2.5,
+        "avg_hr_bpm": 140,
+        "avg_speed_kph": 27.0,
+        "avg_watts": 147,
+        "avg_elevation_m": 811,
+        "recent_8wk": {
+          "weekly_avg_km": 152.3,
+          "weekly_avg_sessions": 2.1,
+          "change_vs_overall_pct": -3.5
+        }
+      },
+      "swim": {
+        "total_sessions": 65,
+        "total_km": 183.3,
+        "total_hours": 57.6,
+        "weekly_avg_km": 6.5,
+        "weekly_avg_sessions": 2.3,
+        "avg_hr_bpm": 116,
+        "avg_pace_min_100m": 1.88,
+        "avg_pace_display": "1:53 /100m",
+        "recent_8wk": {
+          "weekly_avg_km": 5.8,
+          "weekly_avg_sessions": 2.1,
+          "change_vs_overall_pct": -11.7
+        }
+      },
+      "run": {
+        "total_sessions": 72,
+        "total_km": 757.7,
+        "total_hours": 62.3,
+        "weekly_avg_km": 27.1,
+        "weekly_avg_sessions": 2.6,
+        "avg_hr_bpm": 152,
+        "avg_pace_min_km": 4.94,
+        "avg_pace_display": "4:56 /km",
+        "recent_8wk": {
+          "weekly_avg_km": 33.2,
+          "weekly_avg_sessions": 3.0,
+          "change_vs_overall_pct": 22.6
+        }
+      }
+    },
+    "hr_zones": {
+      "estimated_max_hr": 207,
+      "observed_max_hr": 228,
+      "max_hr_method": "95th percentile of observed max HRs. Raw max (228 bpm) may be a sensor artifact.",
+      "zones": {
+        "zone1_recovery": {
+          "min_bpm": 103,
+          "max_bpm": 124
+        },
+        "zone2_aerobic": {
+          "min_bpm": 124,
+          "max_bpm": 144
+        },
+        "zone3_tempo": {
+          "min_bpm": 144,
+          "max_bpm": 165
+        },
+        "zone4_threshold": {
+          "min_bpm": 165,
+          "max_bpm": 186
+        },
+        "zone5_vo2max": {
+          "min_bpm": 186,
+          "max_bpm": 207
+        }
+      }
+    },
+    "weakest_discipline": {
+      "discipline": "swim",
+      "scores": {
+        "swim": {
+          "cv": 0.318,
+          "recent_change_pct": -11.7,
+          "score": 37.6
+        },
+        "bike": {
+          "cv": 0.086,
+          "recent_change_pct": 0,
+          "score": 8.6
+        },
+        "run": {
+          "cv": 0.111,
+          "recent_change_pct": 22.6,
+          "score": -0.2
+        }
+      },
+      "reasoning": "Swim has the highest inconsistency in race results (CV=31.8%) combined with declining training volume (-11.7% recent vs overall).",
+      "improvement_suggestions": [
+        "Increase swim frequency to 3x/week minimum.",
+        "Add open water practice to simulate race conditions.",
+        "Focus on sighting and straight-line swimming to reduce actual distance.",
+        "Consider swim stroke analysis to improve efficiency."
+      ]
+    },
+    "training_flags": [
+      {
+        "type": "caution",
+        "discipline": "swim",
+        "message": "Swim: Volume jump of 51% detected week-over-week. Monitor for overtraining risk."
+      },
+      {
+        "type": "concern",
+        "discipline": "swim",
+        "message": "Swim: Volume declining in recent weeks. Review if intentional (taper) or unplanned."
+      },
+      {
+        "type": "concern",
+        "discipline": "ride",
+        "message": "Ride: 1 week(s) with zero sessions in last 8 weeks."
+      },
+      {
+        "type": "caution",
+        "discipline": "ride",
+        "message": "Ride: Volume jump of 61% detected week-over-week. Monitor for overtraining risk."
+      },
+      {
+        "type": "concern",
+        "discipline": "run",
+        "message": "Run: 1 week(s) with zero sessions in last 8 weeks."
+      },
+      {
+        "type": "caution",
+        "discipline": "run",
+        "message": "Run: Volume jump of 39% detected week-over-week. Monitor for overtraining risk."
+      }
+    ]
+  }
+}
